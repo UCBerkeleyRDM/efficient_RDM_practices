@@ -5,4 +5,4 @@ This readme files describes the content from "Efficient Data Management Practice
 
 1 "efficient_data_management" is a pdf that contains the workshop material.
 2 "readme.txt_example" is an example of an actual readme.txt file
-
+3 "example_Data_dictionary" is an example of an actual data dictionary
