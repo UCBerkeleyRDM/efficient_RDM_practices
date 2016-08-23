@@ -1,0 +1,30 @@
+The below is an example readme.txt from the Dryad Repository. This is to serve as an example of what a good readme.txt could look like.
+
+ReadMe for Compliance with mandatory reporting of clinical trial results on ClinicalTrials.gov: cross sectional study, Prayle, Andrew P, Hurley, Matthew N, Smyth, Alan R  
+
+2011-12-12
+
+This readme file describes the data files and supplementary files accompanying the above publication.  For any further queries please contact andrew.prayle@nottingham.ac.uk
+
+The following files are included:
+
+1)  "clinicaltrials.gov_search.txt" 
+This is the output from the original clinicaltrials.gov search conducted in Jan 2011.  An explanation of the variables is included in the supplementary file "2011-10-31 Prayle Hurley Smyth Supplementary file 3 variables in the dataset".
+
+2)  "identify completed trials.r"
+This is the R script which  when run on "clinicaltrials.gov_search.txt" will produce a .csv file which lists all the completed trials.  It follows the flow diagram in the paper up until the point where trials are manually cross referenced against the Drugs@FDA database.  Proxy settings for R may require setting.  Additionally, you may not want to add a line to slow the webscrape down, as some websites block repeated requests for information.  
+
+3)  "FDA_table_with_sens.csv"
+This is the final dataset after cross referencing the trials.  An explanation of the variables is included in the supplementary file "2011-10-31 Prayle Hurley Smyth Supplementary file 3 variables in the dataset".
+
+4) "analysis_after_FDA_categorization_and_sens.r"
+This R script reproduces the analysis from the paper, including the tables and statistical tests.  The comments should make it self explanatory.
+
+5)  "2011-11-02 prayle hurley smyth supplementary file 1 STROBE checklist.rtf"
+This is a STROBE checklist for the study
+
+6)  "2011-10-31 Prayle Hurley Smyth Supplementary file 2 examples of categorization.rtf"
+This is a supplemntary file which illustrates some of the decisions which had to be made when categorizing trials.
+
+7)  "2011-10-31 Prayle Hurlay Smyth Supplementary file 3 variables in the dataset.rtf"
+This file lists and describes the sources of all the variables used in the final analysis. 
