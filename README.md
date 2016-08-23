@@ -4,4 +4,5 @@ This repository contains workshop materials from the "Efficient Data Management 
 This readme files describes the content from "Efficient Data Management Practices: tools & services at UC-Berkeley," a workshop taught at Kresge Engineering Library by Anna Sackmann and Jamie Wittenberg.
 
 1 "efficient_data_management" is a pdf that contains the workshop material.
-2 
+2 "readme.txt_example" is an example of an actual readme.txt file
+
